@@ -24,12 +24,12 @@ https://uzmashxxxikh.github.io/Profile/
                 <li><a href="contact.html">Contact</a></li>
         </nav>
         
-        <main class="content">
+        <div class="content">
             <section class="hero">
                 <h1>Welcome to My Portfolio</h1>
                 <p>Hello! I'm Uzma Shaikh, a student at George Brown College. Explore my projects, skills, and more!</p>
             </section>
-        </main>
+        </div>
     </div>
 
     <script src="/scripts/script.js"></script>
