@@ -1,6 +1,7 @@
 # Profile
 click the link to go to my webpage
-uzmashxxxikh.github.io/Profile/
+
+https://uzmashxxxikh.github.io/Profile/
 
 
 
