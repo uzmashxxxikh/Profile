@@ -10,33 +10,12 @@ body, html {
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden; /* Prevents scrolling when cursor moves */
-    cursor: none; /* Hides the default cursor */
+
 }
 
-/* Default cursor circle */
-.cursor {
-    position: absolute;
-    width: 20px; /* Size of the main cursor */
-    height: 20px;
-    background-color: black;
-    border-radius: 50%;
-    pointer-events: none; /* Ensures the cursor doesn't block other elements */
-    transition: transform 0.1s ease;
-    z-index: 9999;
-}
 
 /* Shadow circle */
-.cursor-shadow {
-    position: absolute;
-    width: 50px; /* Size of the shadow cursor */
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.3); /* Shadow effect */
-    border-radius: 50%;
-    pointer-events: none; /* Ensures it doesn't block interaction */
-    transition: transform 0.2s ease;
-    z-index: 9998;
-}
+
 
 body {
     font-family: Arial, sans-serif;
