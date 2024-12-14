@@ -15,14 +15,7 @@ https://uzmashxxxikh.github.io/Profile/
 </head>
 <body>
     <div class="container">
-        <nav class="sidebar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html" class="active">Projects</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="contact.html">Contact</a></li>
-        </nav>
+
         
         <div class="content">
             <section class="hero">
