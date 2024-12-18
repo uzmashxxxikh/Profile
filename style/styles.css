@@ -75,9 +75,10 @@ body {
 .sidebar ul li {
     position: relative;
     margin: 20px 0;
-    padding: 20px;
+    padding: 10px;
     margin-right: 26px;
     margin-top: 0px;
+    margin-left: 24px;
 }
 
 .sidebar ul li a {
@@ -128,6 +129,7 @@ body {
     content: none;
 }
 
+
 img {
     display: inline-block;
     border: 0px solid #000; /* Black border */
@@ -135,10 +137,10 @@ img {
     padding: 10px; /* Space between border and image */
     background-color: #f0f0f0; /* Light gray background */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  }
+}
 
   /* Style for the image */
-  .image-box img {
+  .image-box, #img {
     display: block;
     border-radius: 10px; 
     max-width: 100%; 
@@ -148,9 +150,9 @@ img {
 
 .content {
     padding-top: 20px;
-    margin-left: 250px;
+    margin-left: 150px;
     align-items: center;
-    width: 100%;
+    width: 87%;
 }
 
 .hero {
@@ -191,12 +193,6 @@ section {
 
 
 }
-
-
-
-
-
-
 
 
 
