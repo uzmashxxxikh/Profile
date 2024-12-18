@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Uzma Shaikh</title>
+    <link rel="stylesheet" href="/style/styles.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            min-height: 100vh;
+            background-color: #1c2833;
+            /* Updated background color */
+        }
+
+        .content {
+            padding-top: 20px;
+            margin-left: 250px;
+            align-items: center;
+            width: 100%;
+        }
+
+        section {
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #2980b9;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* Contact Form Styling */
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-form label {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #2980b9;
+            color: white;
+            font-size: 1.1rem;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a class = "logoUS" href="http://127.0.0.1:5500/html/index.html" data-text="Home"> <img src="/imgs/USLogo.png" alt="Descriptive text" width="45" height="45">
+                </a></li>
+                <li><a href="/html/index.html" data-text="Home"> <img src="/imgs/home.png" alt="Descriptive text" width="45" height="45">
+                    </a></li>
+                <li><a href="/html/about.html" data-text="About Me"> <img src="/imgs/aboutme.png" alt="Descriptive text" width="45"
+                            height="45"> </a></li>
+                <li><a href="/html/projects.html" data-text="Projects"> <img src="/imgs/projects.png" alt="Descriptive text" width="45"
+                            height="45"> </a></li>
+                <li><a href="/html/experience.html" data-text="Experience"> <img src="/imgs/experience.png" alt="Descriptive text" width="45"
+                            height="45"></a>
+                </li>
+                <li><a href="/html/contact.html" data-text="Contact"> <img src="/imgs/contact.png" alt="Descriptive text" width="45"
+                            height="45"></a>
+                </li>
+        </nav>
+
+        <main class="content">
+            <section>
+                <h2>Contact Me</h2>
+
+                <p>If you'd like to get in touch, feel free to email me or use the contact form below.</p>
+
+                <!-- Contact Form -->
+                <form action="submit_form.php" method="POST" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <!-- Email Link -->
+                <br>
+                <p>Or, you can email me directly at <a href="mailto:uzmashxikh@hotmail.com">uzmashxikh@hotmail.com</a>.
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
