@@ -1,32 +1,36 @@
-General Reset
-* {
+General Reset * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-    overflow: hidden; /* Prevents scrolling when cursor moves */
-    cursor: none; /* Hides the default cursor */
+    overflow: hidden;
+    /* Prevents scrolling when cursor moves */
+    cursor: none;
+    /* Hides the default cursor */
     background-color: #1c2833;
 }
 
-body{
+body {
     background-color: #2c3e50;
 }
 
 /* Default cursor circle */
 .cursor {
     position: absolute;
-    width: 20px; /* Size of the main cursor */
+    width: 20px;
+    /* Size of the main cursor */
     height: 20px;
     background-color: black;
     border-radius: 50%;
-    pointer-events: none; /* Ensures the cursor doesn't block other elements */
+    pointer-events: none;
+    /* Ensures the cursor doesn't block other elements */
     transition: transform 0.1s ease;
     z-index: 9999;
 }
@@ -34,11 +38,14 @@ body{
 /* Shadow circle */
 .cursor-shadow {
     position: absolute;
-    width: 50px; /* Size of the shadow cursor */
+    width: 50px;
+    /* Size of the shadow cursor */
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.3); /* Shadow effect */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Shadow effect */
     border-radius: 50%;
-    pointer-events: none; /* Ensures it doesn't block interaction */
+    pointer-events: none;
+    /* Ensures it doesn't block interaction */
     transition: transform 0.2s ease;
     z-index: 9998;
 }
@@ -63,7 +70,8 @@ body {
     position: fixed;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers icons horizontally */
+    align-items: center;
+    /* Centers icons horizontally */
 }
 
 .sidebar ul {
@@ -96,15 +104,18 @@ body {
     margin-bottom: 50px;
 
 }
+
 /* .sidebar ul li a:hover {
     background-color: #c94220;
 } */
 
 /* Tooltip styling */
 .sidebar ul li a::after {
-    content: attr(data-text); /* Use the `data-text` attribute for tooltip text */
+    content: attr(data-text);
+    /* Use the `data-text` attribute for tooltip text */
     position: absolute;
-    left: 90px; /* Position tooltip to the right of the icon */
+    left: 90px;
+    /* Position tooltip to the right of the icon */
     top: 140%;
     transform: translateY(-50%);
     background-color: #2980b9;
@@ -132,21 +143,42 @@ body {
 
 img {
     display: inline-block;
-    border: 0px solid #000; /* Black border */
-    border-radius: 15px; /* Rounded corners */
-    padding: 10px; /* Space between border and image */
-    background-color: #f0f0f0; /* Light gray background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    border: 0px solid #000;
+    /* Black border */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 10px;
+    /* Space between border and image */
+    background-color: #ffffff;
+    /* Light gray background */
+    /* Optional shadow */
 }
 
-  /* Style for the image */
-  .image-box, #img {
+.logoUS img {
+    border: none; /* Ensures no border is applied */
+    padding: 0; /* Removes any extra padding */
+    margin-top: 10px;
+    background-color: transparent; /* Removes any background */
+    background-color: transparent;
+    box-shadow: none; 
+}
+
+.face img {
+    border: none; /* Ensures no border is applied */
+    padding: 0; /* Removes any extra padding */
+    margin-top: 10px;
+    background-color: transparent; /* Removes any background */
+    background-color: transparent;
+    box-shadow: none; 
+}
+
+#img {
     display: block;
-    border-radius: 10px; 
-    max-width: 100%; 
+    border-radius: 20px;
+    max-width: 100%;
     height: auto;
 
-  }
+}
 
 .content {
     padding-top: 20px;
@@ -156,7 +188,7 @@ img {
 }
 
 .hero {
-    
+
     padding: 50px;
     background-color: #2980b9;
     color: white;
@@ -176,7 +208,7 @@ section {
     padding: 20px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 6px rgba(219, 219, 219, 0.1);
 }
 
 /* Responsive Design */
@@ -193,6 +225,3 @@ section {
 
 
 }
-
-
-
