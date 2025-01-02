@@ -25,7 +25,7 @@ https://uzmashxxxikh.github.io/profile/
 
 </head>
 
-<body>
+<body style="background-color: white;">
     <div class="container">
         <nav class="sidebar">
             <ul>
